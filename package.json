@@ -1,0 +1,22 @@
+{
+  "name": "image-scrapper",
+  "version": "1.0.0",
+  "description": "Google image scraper application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshatpokhriyal/Google-Image-Scraper.git"
+  },
+  "author": "Akshat pokhriyal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "images-scraper": "^2.0.11",
+    "mongoose": "^5.4.1"
+  }
+}

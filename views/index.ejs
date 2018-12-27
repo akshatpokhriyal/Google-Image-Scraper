@@ -1,0 +1,26 @@
+<% include partials/header.ejs %>
+<div class="container">
+  <h1>Google Image Scraper!</h1>
+  <form class="form-inline md-form mr-auto mb-4" action="/" method="post">
+    <input class="form-control mr-sm-2" type="text" name="text" id="text" required />
+    <button type="submit" class="btn btn-success">Search</button>
+  </form>
+
+  <% if(output !== null) {  %>
+  <h1>Result</h1>
+  <% for (let i = 0; i < output.length; i++) { %>
+  <ul class="list-group row" >
+    <li class="list-group-item col-xs-6"><a href="<%= output[i] %>" ><img class="border border-info"  src="<%= output[i] %>"  /> </a></li>
+  </ul>
+  
+  <% }} %>
+
+  <div class="out">
+    
+
+  </div>
+</div>
+
+</body>
+
+</html>

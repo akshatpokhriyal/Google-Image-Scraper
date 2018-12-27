@@ -1,0 +1,13 @@
+.fixed-top {
+  background-color: rgba(0, 3, 5, 0.849);
+}
+body {
+  padding-top: 70px;
+}
+
+li {
+  list-style-type: none;
+}
+img {
+  width: 250px;
+}
